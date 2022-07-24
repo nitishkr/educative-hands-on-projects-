@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: kubernetes-pod
+  labels:
+    project: kubernetes-project
+spec:
+  containers:
+    - name: kubernetes-pod
+      image: nitishkr89/repo-1:latest
+      ports:
+        - containerPort: 31111
